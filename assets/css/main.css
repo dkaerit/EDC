@@ -67,4 +67,10 @@ h1 {
     font-family: segoeui;
 }
 
+subtitle {
+    font-family: 'grotesque';
+    font-style: italic;
+    margin-top: -10px;
+    display: block;
+}
 
