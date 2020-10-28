@@ -28,9 +28,9 @@ if ( $c ) {
 
     $name = "def"
     $confirm = "Y"
-    if ( !$n ) { $confirm = Read-Host -Prompt "No especifica nombre, se va a utilizar por defecto: $name ¿Estoy de acuerdo? [Y/N]" }
+    if ( !$n ) { $confirm = Read-Host -Prompt "No especifica nombre, se va a utilizar '$name' por defecto, `r`n [Y (utilizar por defecto) / N (utilizar otro nombre)]" }
     else { $name = $n }
-    if ( $confirm -ne 'Y' ) { $name = Read-Host -Prompt "Introduce nuevo nombre: " }
+    if ( $confirm -ne 'Y' ) { $name = Read-Host -Prompt "Introduce nuevo nombre" }
 
     if ( $W ) { iverilog -Wall -o "..\$sim\$name.$obj_ext" $my_mods }
     else { iverilog -o "..\$sim\$name.$obj_ext" $my_mods }
@@ -43,7 +43,7 @@ if ( $vvp ) {
     
     $name = "def"
     $confirm = "Y"
-    if ( !$n ) { $confirm = Read-Host -Prompt "No especifica nombre, se va a utilizar por defecto: $name ¿Estoy de acuerdo? [Y/N]" }
+    if ( !$n ) { $confirm = Read-Host -Prompt "No especifica nombre, se va a utilizar '$name' por defecto: $name, ¿Estoy de acuerdo? [Y/N]" }
     else { $name = $n }
     if ( $confirm -ne 'Y' ) { $name = Read-Host -Prompt "Introduce nuevo nombre: " }
     
