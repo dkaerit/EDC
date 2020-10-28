@@ -34,7 +34,7 @@ ol {
     padding: 16px 50px;
     text-align: right;
     background: rgb(121,80,143);
-    background: linear-gradient(45deg, rgba(121,80,143,1) 0%, rgb(144 116 154) 100%);
+    background: linear-gradient(45deg, rgba(143,116,80,1) 0%, rgba(180,170,71,1) 100%);
 }
 
 .indice {
