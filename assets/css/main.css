@@ -1,0 +1,70 @@
+/* VARAIABLES */
+:root {
+    --bg-dark: #000;
+    --color-dark: #fff;
+
+    --bg-light: #fff;
+    --color-light: #000;
+}
+
+
+
+
+/* ESTILOS */ 
+body {
+    margin: 0px!important;
+}
+
+.numbrerUnit {
+    position: absolute;
+    font-size: 104px;
+    margin: -17px 0px;
+}
+
+
+ol {
+    font-family: arial;
+    font-size: 14px;
+}
+
+.header {
+    color: #fff;
+    margin: -28px -34px 0px;
+    text-shadow: 0px 0px 14px #0000004a;
+    padding: 16px 50px;
+    text-align: right;
+    background: rgb(121,80,143);
+    background: linear-gradient(45deg, rgba(121,80,143,1) 0%, rgb(144 116 154) 100%);
+}
+
+.indice {
+    position: fixed;
+    width: 343px;
+    background: #efefef;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #805b92;
+}
+
+.content.wrapper {
+    margin: 28px 28px 0px 377px;
+}
+
+p {
+    font-family: 'EB Garamond';
+    text-align: justify;
+}
+
+h2 {
+    font-family: grotesque;
+}
+
+h1 {
+    font-family: segoeui;
+}
+
+
