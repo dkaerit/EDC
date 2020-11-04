@@ -67,6 +67,18 @@ h1 {
     font-family: segoeui;
 }
 
+h3 {
+    font-family: grotesque;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-top: -13px;
+    padding: 10px 10px 0px 10px;
+    font-family: 'segoeui';
+}
+
 subtitle {
     font-family: 'grotesque';
     font-style: italic;
