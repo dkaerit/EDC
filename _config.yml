@@ -1,7 +1,7 @@
 title: Estructura de Computadores
 email: kaerit@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Apuntes de sistemas operativos.
+  Apuntes de estructuras de computadores.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dkaerit
