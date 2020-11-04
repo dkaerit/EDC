@@ -87,9 +87,9 @@ subtitle {
 }
 
 code.language-plaintext.highlighter-rouge {
-    background: #efefef;
+    background: #fff6c8;
     border-radius: 4px;
-    padding: 4px;
+    padding: 0px 4px;
     font-family: unset!important;
 }
 
