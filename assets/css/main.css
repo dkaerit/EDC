@@ -74,3 +74,14 @@ subtitle {
     display: block;
 }
 
+code.language-plaintext.highlighter-rouge {
+    background: #efefef;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: unset!important;
+}
+
+ul {
+    font-family: 'EB Garamond'!important;
+}
+
