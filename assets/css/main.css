@@ -33,7 +33,6 @@ table {
 
 .ventydesv {
     display: flex;
-    margin: auto;
     align-items: stretch;
     width: 49%;
 }
