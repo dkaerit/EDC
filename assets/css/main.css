@@ -32,6 +32,25 @@ table {
     width: 90%;
 }
 
+.ventydesv ventaja {
+    background: #d9ffcc;
+    padding: 10px;
+    border: 1px solid #8cda97;
+    margin: 5px;
+    border-radius: 5px;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.ventydesv desventaja {
+    background: #fcc;
+    padding: 10px;
+    border: 1px solid #da8c8c;
+    margin: 5px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
 .numbrerUnit {
     position: absolute;
     font-size: 104px;
