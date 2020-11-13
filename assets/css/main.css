@@ -22,6 +22,10 @@ code.language-print {
     display: block;
 }
 
+table {
+    margin: auto;
+}
+
 .numbrerUnit {
     position: absolute;
     font-size: 104px;
