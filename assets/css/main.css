@@ -26,10 +26,16 @@ table {
     margin: auto;
 }
 
+.ventydesvdual {
+    display: flex;
+    align-items: stretch;
+}
+
 .ventydesv {
     display: flex;
     margin: auto;
-    width: 90%;
+    align-items: stretch;
+    width: 49%;
 }
 
 .ventydesv ventaja {
@@ -38,7 +44,6 @@ table {
     border: 1px solid #8cda97;
     margin: 5px;
     border-radius: 5px;
-    align-items: stretch;
     flex-basis: 50%;
 }
 
