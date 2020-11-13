@@ -39,7 +39,7 @@ table {
     margin: 5px;
     border-radius: 5px;
     align-items: stretch;
-    flex-grow: 1;
+    flex-basis: 50%;
 }
 
 .ventydesv desventaja {
@@ -48,7 +48,7 @@ table {
     border: 1px solid #da8c8c;
     margin: 5px;
     border-radius: 5px;
-    flex-grow: 1;
+    flex-basis: 50%;
 }
 
 .numbrerUnit {
