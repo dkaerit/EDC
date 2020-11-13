@@ -26,6 +26,12 @@ table {
     margin: auto;
 }
 
+.ventydesv {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
 .numbrerUnit {
     position: absolute;
     font-size: 104px;
